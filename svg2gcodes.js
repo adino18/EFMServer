@@ -936,7 +936,7 @@ function write2serial_direct(command) {
 // 		});
 // 	}
 // });
-var ws = new WebSocket('ws://192.168.1.7:81');
+var ws = new WebSocket('ws://192.168.100.7:81');
 ws.binaryType = "arraybuffer";
 
 ws.onopen = function (e) {
